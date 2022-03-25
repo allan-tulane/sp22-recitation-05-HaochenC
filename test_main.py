@@ -18,3 +18,8 @@ def test_construct_output():
 def test_count_values_mr():
     assert count_values_mr([2,2,1,0,1,0,1,3], 3) == [2, 3, 2, 1]
 
+test_count_values()
+test_count_values_hard()
+test_get_positions()
+test_construct_output()
+test_count_values_mr()
